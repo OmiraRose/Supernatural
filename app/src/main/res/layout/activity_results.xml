@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="@color/darkSlateGray"
+    tools:context="com.example.android.supernatural.ResultsActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        android:scaleType="fitStart"
+        android:background="@color/darkOrange"
+        android:src="@drawable/supernatural_20" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/resultsMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="25dp"
+            android:paddingBottom="12dp"
+            android:paddingStart="12dp"
+            android:paddingLeft="12dp"
+            android:fontFamily="@font/pt_serif_web_bolditalic"
+            style="@style/messageText"
+            android:text="Message" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:paddingStart="50dp"
+        android:paddingLeft="50dp"
+        android:fontFamily="@font/pt_serif_web_bold"
+        style="@style/resultsText"
+        android:text="@string/you"/>
+
+    <TextView
+        android:id="@+id/results"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:paddingLeft="150dp"
+        android:paddingStart="150dp"
+        android:fontFamily="@font/pt_serif_web_bold"
+        style="@style/numberText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="testing"/>
+
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="105dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/rest_button"
+        android:fontFamily="@font/crimsontext_bold"
+        android:paddingLeft="55dp"
+        android:paddingRight="55dp"
+        android:text="@string/reset"
+        android:textColor="@color/teal"
+        android:textSize="18sp" />
+</LinearLayout>

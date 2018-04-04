@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Supernatural</string>
+    <string name="hint">Enter Name</string>
+    <string name="start">Begin</string>
+    <string name="starterScore">0</string>
+    <string name="done">Finish</string>
+    <string name="finalResponse">Saving People, Hunting Things, The Family Business! You got</string>
+    <string name="finalScore">out of 10 correct!</string>
+    <string name="banner">Supernatural Banner</string>
+    <string name="hunting">Saving People, Hunting things, The Family Business!</string>
+    <string name="carryOn">Carry on wayward son</string>
+    <string name="you">You got:</string>
+    <string name="number">/10</string>
+    <string name="reset">Reset</string>
+</resources>
+
